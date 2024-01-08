@@ -55,19 +55,19 @@
  * line height patch and as such is intended to be combined with these.
  * https://tools.suckless.org/dmenu/patches/emoji-highlight/
  */
-#define EMOJI_HIGHLIGHT_PATCH 1
+#define EMOJI_HIGHLIGHT_PATCH 0
 
 /* This patch make it so that fuzzy matches gets highlighted and is therefore meant
  * to be used together with the fuzzymatch patch.
  * https://tools.suckless.org/dmenu/patches/fuzzyhighlight/
  */
-#define FUZZYHIGHLIGHT_PATCH 1
+#define FUZZYHIGHLIGHT_PATCH 0
 
 /* This patch adds support for fuzzy-matching to dmenu, allowing users to type non-consecutive
  * portions of the string to be matched.
  * https://tools.suckless.org/dmenu/patches/fuzzymatch/
  */
-#define FUZZYMATCH_PATCH 1
+#define FUZZYMATCH_PATCH 0
 
 /* Adds fzf-like functionality for dmenu.
  * Refer to https://github.com/DAFF0D11/dafmenu/ for documentation and example use cases.
@@ -80,13 +80,13 @@
  * G columns * L lines grid.
  * https://tools.suckless.org/dmenu/patches/grid/
  */
-#define GRID_PATCH 1
+#define GRID_PATCH 0
 
 /* This patch adds the ability to move left and right through a grid.
  * This patch depends on the grid patch.
  * https://tools.suckless.org/dmenu/patches/gridnav/
  */
-#define GRIDNAV_PATCH 1
+#define GRIDNAV_PATCH 0
 
 /* This patch highlights the individual characters of matched text for each dmenu list entry.
  * The fuzzy highlight patch takes precedence over this patch.
@@ -119,7 +119,7 @@
  * integrate dmenu with other UI elements that require a particular vertical size.
  * http://tools.suckless.org/dmenu/patches/line-height/
  */
-#define LINE_HEIGHT_PATCH 1
+#define LINE_HEIGHT_PATCH 0
 
 /* This patch adds a -wm flag which sets override_redirect to false; thus letting your window
  * manager manage the dmenu window.
@@ -139,7 +139,7 @@
 /* This patch adds basic mouse support for dmenu.
  * https://tools.suckless.org/dmenu/patches/mouse-support/
  */
-#define MOUSE_SUPPORT_PATCH 1
+#define MOUSE_SUPPORT_PATCH 0
 
 /* Without this patch when you press Ctrl+Enter dmenu just outputs current item and it is not
  * possible to undo that.
@@ -152,7 +152,7 @@
  *
  * https://tools.suckless.org/dmenu/patches/multi-selection/
  */
-#define MULTI_SELECTION_PATCH 1
+#define MULTI_SELECTION_PATCH 0
 
 /* This patch provides dmenu the ability for history navigation similar to that of bash.
  *
@@ -167,7 +167,7 @@
  * glyphs are used. This is for systems that do not have an updated version of the Xft library
  * (or generally prefer monochrome fonts).
  */
-#define NO_COLOR_EMOJI_PATCH 1
+#define NO_COLOR_EMOJI_PATCH 0
 
 /* Adds the -S option to disable sorting menu items after matching. Useful, for example, when menu
  * items are sorted by their frequency of use (using an external cache) and the most frequently
@@ -192,7 +192,7 @@
 /* Adds text which displays the number of matched and total items in the top right corner of dmenu.
  * https://tools.suckless.org/dmenu/patches/numbers/
  */
-#define NUMBERS_PATCH 1
+#define NUMBERS_PATCH 0
 
 /* This patch adds simple markup for dmenu using pango markup.
  * This depends on the pango library v1.44 or greater.
@@ -221,7 +221,7 @@
  * it with dots. All data from stdin will be ignored.
  * https://tools.suckless.org/dmenu/patches/password/
  */
-#define PASSWORD_PATCH 1
+#define PASSWORD_PATCH 0
 
 /* This patch allows the selected text to be piped back out with dmenu. This can be useful if you
  * want to display the output of a command on the screen.
